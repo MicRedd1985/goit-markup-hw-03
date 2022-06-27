@@ -80,17 +80,20 @@ img {
     text-decoration: none;
     color: var(--second-logo-color);
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 
 .logo-web {
     color: var(--first-logo-color);
+    
 }
 
 .header-nav {
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-right: auto;
+ 
   
     }
 
@@ -128,11 +131,15 @@ img {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     margin-right: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
 }
 
 
 .header-link .link.current {
     color: var(--link-color);
+    
 }
 
 .header-link>.item.item:nth-child(-n+2) {
@@ -142,7 +149,7 @@ img {
 .contact-link {
     display: flex;
     padding-left: 0px;
-    margin-left: auto;
+    margin: 0px;
 
    }
 
